@@ -12,15 +12,8 @@
   </div>
 </template>
 
-<script>
-import Button from './Button.vue';
-
-export default {
-  name: "Header",
-  components: {
-    Button
-  }
-}
+<script setup>
+import Button from '@/Components/Button.vue';
 </script>
 
 <style scoped>
