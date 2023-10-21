@@ -1,5 +1,6 @@
 <script setup>
 import Header from "@/Layouts/Header.vue";
+import Gallery from "@/Pages/Gallery.vue";
 import Modal from "@/Components/Modal.vue";
 
 </script>
@@ -7,7 +8,7 @@ import Modal from "@/Components/Modal.vue";
 <template>
   <div class="main">
     <Header/>
-    asd
+    <Gallery/>
     <Modal :auth=true />
     <Modal :registration=true />
   </div>
